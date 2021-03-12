@@ -22,3 +22,4 @@ class ArticlesController:
             if article.getSeller() == p_seller:
                 result.append(article)
         return result
+
