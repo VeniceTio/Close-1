@@ -22,4 +22,6 @@ class ArticlesController:
                 result.append(article)
         return result
 
-    def 
+    def triByPrice(self):
+        result = self.articles
+
