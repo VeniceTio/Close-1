@@ -14,6 +14,7 @@ class ArticlesController:
         self.articles.append(newArticle)
 
     def delArticle(self,id):
+        pass;
 
     def selectArticlesBySeller(self,p_seller):
         result = []
@@ -21,7 +22,4 @@ class ArticlesController:
             if article.getSeller() == p_seller:
                 result.append(article)
         return result
-
-    def triByPrice(self):
-        result = self.articles
 
