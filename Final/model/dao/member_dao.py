@@ -1,10 +1,10 @@
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
 
-from model.mapping.member import Member
-from model.dao.dao import DAO
+from Final.model.mapping.member import Member
+from Final.model.dao.dao import DAO
 
-from exceptions import Error, ResourceNotFound
+from Final.exceptions import Error, ResourceNotFound
 
 
 class MemberDAO(DAO):

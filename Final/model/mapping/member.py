@@ -1,4 +1,4 @@
-from model.mapping import Base, generate_id
+from Final.model.mapping import Base, generate_id
 
 from sqlalchemy import Column, String, UniqueConstraint
 
